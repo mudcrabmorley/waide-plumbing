@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply font-montserrat;
+  @apply text-waide-gray;
+}
+
+section {
+  @apply p-2;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @apply font-montserrat tracking-normal z-10;
+}
+
+li {
+  @apply list-disc list-inside;
+}
+
+.spacer {
+  @apply h-10;
+}
+
+.button {
+  @apply w-full p-4 border border-gray-50/20 font-bold text-waide-cream bg-waide-gray rounded-lg shadow-xl hover:opacity-90 hover:scale-95 transition duration-200;
+}
+
+.button-2 {
+  @apply w-full p-4 border-4 border-waide-gray font-bold rounded-lg shadow-xl hover:opacity-90 hover:scale-95 transition duration-200;
+}
+
+.heading {
+  @apply text-4xl md:text-5xl font-bold text-center;
+}
+
+.subheading {
+  @apply text-2xl font-bold border-b;
+}
+
+.subheading-no-border {
+  @apply text-2xl font-bold;
+}
+
+.card {
+  @apply bg-black/20 rounded-xl shadow-md p-4 border border-gray-50/20;
+}
+
+.commit-item-container {
+  @apply card p-4 rounded-xl shadow-md flex flex-col space-y-2 h-[300px] lg:h-[360px] lg:w-[350px] border border-gray-50/20;
+}
+
+.display-img {
+  @apply rounded-2xl shadow-xl;
+}
+
+.services-item-container {
+  @apply p-4 flex flex-col flex-1 rounded-xl shadow-md bg-white border-black/10 border mx-auto text-center w-44 h-44;
+}
