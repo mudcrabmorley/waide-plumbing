@@ -994,9 +994,9 @@ li {
 
 .commit-item-container {
   display: flex;
-  height: 240px;
+  height: 280px;
+  width: 320px;
   flex-direction: column;
-  justify-content: space-between;
 }
 
 .commit-item-container > :not([hidden]) ~ :not([hidden]) {
@@ -1017,10 +1017,14 @@ li {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
-@media (min-width: 768px) {
-  .commit-item-container {
-    height: 270px;
-  }
+.icon-heading-container {
+  min-height: 130px;
+}
+
+.icon-heading-container > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(0.5rem * var(--tw-space-y-reverse));
 }
 
 .display-img {

@@ -57,7 +57,11 @@ li {
 }
 
 .commit-item-container {
-  @apply card p-4 rounded-xl shadow-md flex flex-col justify-between pb-4 space-y-2 h-[240px] md:h-[270px] border border-gray-50/20;
+  @apply card p-4 rounded-xl shadow-md flex flex-col pb-4 space-y-2 w-[320px] h-[280px] border border-gray-50/20;
+}
+
+.icon-heading-container {
+  @apply min-h-[130px] space-y-2;
 }
 
 .display-img {
