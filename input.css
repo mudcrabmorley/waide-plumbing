@@ -71,3 +71,14 @@ li {
 .services-item-container {
   @apply p-4 flex flex-col flex-1 rounded-xl shadow-md bg-white border-black/10 border mx-auto text-center w-44 h-44;
 }
+
+.services-lightbox {
+  @apply p-4 flex flex-col flex-1 rounded-xl shadow-md bg-waide-gray border-white/10 border mx-auto text-center;
+}
+
+.fancybox-slide--iframe .fancybox-content,
+.fancybox-slide--html .fancybox-content,
+.fancybox-slide--inline .fancybox-content,
+.fancybox-slide--ajax .fancybox-content {
+  max-width: 600px !important;
+}

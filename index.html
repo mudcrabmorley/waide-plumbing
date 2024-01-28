@@ -7,6 +7,12 @@
     <link rel="stylesheet" href="css/style.css" />
     <link rel="canonical" href="https://waideplumbing.com.au/">
 
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- FANCYBOX -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" />
+
     <!-- SEARCH CONSOLE -->
     <meta name="google-site-verification" content="drLzaWUgKllS3i5NJpNV1NfaESNcsFxzLTYDQBZ-xrA" />
 
@@ -219,14 +225,33 @@
         <div class="spacer"></div>
         <div class="spacer"></div>
         <h2 class="heading">SERVICES</h2>
+        <p class="mx-auto mt-2 text-center">To learn more about our services, simply click on each one for detailed
+            information.</p>
         <div class="spacer"></div>
         <div class="grid grid-cols-2 gap-4 mx-auto max-w-sm md:max-w-3xl items-center md:grid-cols-4">
+
             <!-- ITEM 1 -->
             <div class="services-item-container">
-                <img class="rounded-t-xl w-24 mx-auto" src="./img/plumbing-icons/emergency.png"
-                    alt="plumber emergency service truck with spanner displayed on the side drawing" data-aos="zoom-out"
-                    data-aos-duration="2000">
-                <h3 class="font-semibold text-center">24/7 Emergency Service</h3>
+                <a href="javascript:;" data-fancybox data-src="#hidden-content" data-options='{"maxWidth" : 600}'>
+                    <img class="rounded-t-xl w-24 mx-auto" src="./img/plumbing-icons/emergency.png"
+                        alt="plumber emergency service truck with spanner displayed on the side drawing"
+                        data-aos="zoom-out" data-aos-duration="2000">
+                    <h3 class="font-semibold text-center">24/7 Emergency Service</h3>
+                </a>
+            </div>
+
+            <div style="display: none;" id="hidden-content" class="services-lightbox">
+                <h3 class="font-semibold text-center text-lg mb-2">24/7 Emergency Service</h3>
+                <p>Waide Plumbing is dedicated to being your trusted partner for urgent plumbing repairs on the Gold
+                    Coast, available 24/7. We recognise the unpredictability of plumbing emergencies and are devoted to
+                    delivering prompt and dependable solutions at any hour. Whether it involves a burst pipe, sudden
+                    leaks, or other pressing plumbing issues, our proficient team is prepared to react swiftly.
+                    Postponing emergency repairs can lead to substantial property damage and potentially jeopardise
+                    safety. By choosing Waide Plumbing, you can rest assured that our experienced team is always on
+                    standby, prepared to address any plumbing emergency. Rely on us for immediate and effective repairs,
+                    safeguarding the soundness of your plumbing system and the security of your residence or
+                    establishment. Trust Waide Plumbing for round-the-clock emergency assistance, as we prioritise your
+                    peace of mind.</p>
             </div>
             <!-- ITEM 2 -->
             <div class="services-item-container">
@@ -474,6 +499,8 @@
         });
     </script>
 
+    <!-- FANCYBOX -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
 </body>
 
 </html>
