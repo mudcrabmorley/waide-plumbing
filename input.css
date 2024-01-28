@@ -73,7 +73,7 @@ li {
 }
 
 .services-lightbox {
-  @apply p-4 flex flex-col flex-1 rounded-xl shadow-md bg-waide-gray border-white/10 border mx-auto text-center;
+  @apply flex flex-col flex-1 rounded-xl shadow-md bg-waide-gray border-white/10 border mx-auto text-center filter opacity-90;
 }
 
 .fancybox-slide--iframe .fancybox-content,
@@ -81,4 +81,10 @@ li {
 .fancybox-slide--inline .fancybox-content,
 .fancybox-slide--ajax .fancybox-content {
   max-width: 600px !important;
+  padding: 24px !important;
+}
+
+.fancybox-content {
+  @apply text-waide-cream;
+  background-color: #414142 !important;
 }
