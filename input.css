@@ -53,15 +53,15 @@ li {
 }
 
 .card {
-  @apply bg-black/20 rounded-xl shadow-md p-4 border border-gray-50/20;
+  @apply bg-black/60 rounded-xl shadow-md p-4 border border-gray-50/20;
 }
 
 .commit-item-container {
-  @apply card p-4 rounded-xl shadow-md flex flex-col pb-4 space-y-2 w-[320px] h-[280px] border border-gray-50/20 mx-auto;
+  @apply card text-center p-4 rounded-xl shadow-md flex flex-col pt-4 space-y-2 h-[240px] border border-gray-50/20 mx-auto;
 }
 
 .icon-heading-container {
-  @apply min-h-[130px] space-y-2;
+  @apply min-h-[100px] space-y-2 mx-auto flex flex-col items-center;
 }
 
 .display-img {

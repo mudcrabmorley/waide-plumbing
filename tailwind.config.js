@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: (theme) => ({
-        "custom-image": "url('/img/custom-bg.webp')",
+        "custom-image": "url('/img/bg-grain.webp')",
       }),
 
       colors: {
@@ -13,8 +13,7 @@ module.exports = {
       },
 
       fontFamily: {
-        montserrat: [`Montserrat`, `sans-serif`],
-        archivo: ["Archivo Black", "sans-serif"],
+        montserrat: ["Plus Jakarta Sans", "sans-serif"],
       },
     },
   },
