@@ -21,7 +21,7 @@ h3,
 h4,
 h5,
 h6 {
-  @apply font-montserrat tracking-normal z-10;
+  @apply font-montserrat font-bold tracking-normal z-10;
 }
 
 li {
