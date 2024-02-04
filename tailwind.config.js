@@ -13,7 +13,7 @@ module.exports = {
       },
 
       fontFamily: {
-        montserrat: ["Plus Jakarta Sans", "sans-serif"],
+        montserrat: ["Montserrat", "sans-serif"],
       },
     },
   },

@@ -546,6 +546,18 @@ video {
   z-index: 50;
 }
 
+.float-right {
+  float: right;
+}
+
+.float-left {
+  float: left;
+}
+
+.clear-left {
+  clear: left;
+}
+
 .mx-2 {
   margin-left: 0.5rem;
   margin-right: 0.5rem;
@@ -566,12 +578,21 @@ video {
   margin-bottom: 1rem;
 }
 
+.my-1 {
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
+}
+
 .mb-2 {
   margin-bottom: 0.5rem;
 }
 
 .mb-4 {
   margin-bottom: 1rem;
+}
+
+.ml-1 {
+  margin-left: 0.25rem;
 }
 
 .mr-2 {
@@ -590,8 +611,8 @@ video {
   margin-top: 1rem;
 }
 
-.ml-1 {
-  margin-left: 0.25rem;
+.ml-4 {
+  margin-left: 1rem;
 }
 
 .block {
@@ -654,6 +675,10 @@ video {
 
 .w-full {
   width: 100%;
+}
+
+.w-12 {
+  width: 3rem;
 }
 
 .max-w-3xl {
@@ -740,6 +765,10 @@ video {
 
 .rounded-xl {
   border-radius: 0.75rem;
+}
+
+.rounded-lg {
+  border-radius: 0.5rem;
 }
 
 .rounded-t-xl {
@@ -853,8 +882,12 @@ video {
   text-align: center;
 }
 
+.text-justify {
+  text-align: justify;
+}
+
 .font-montserrat {
-  font-family: Plus Jakarta Sans, sans-serif;
+  font-family: Montserrat, sans-serif;
 }
 
 .text-2xl {
@@ -921,7 +954,7 @@ html {
 }
 
 body {
-  font-family: Plus Jakarta Sans, sans-serif;
+  font-family: Montserrat, sans-serif;
   --tw-text-opacity: 1;
   color: rgb(65 65 66 / var(--tw-text-opacity));
 }
@@ -937,7 +970,7 @@ h4,
 h5,
 h6 {
   z-index: 10;
-  font-family: Plus Jakarta Sans, sans-serif;
+  font-family: Montserrat, sans-serif;
   font-weight: 700;
   letter-spacing: 0em;
 }
@@ -1026,8 +1059,8 @@ li {
 }
 
 .subheading-no-border {
-  font-size: 1.5rem;
-  line-height: 2rem;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
   font-weight: 700;
 }
 
