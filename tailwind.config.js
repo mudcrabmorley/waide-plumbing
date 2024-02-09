@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: (theme) => ({
-        "custom-image": "url('/img/bg-grain.webp')",
+        "custom-image": "url('/img/bg-grain.jpg')",
       }),
 
       colors: {
