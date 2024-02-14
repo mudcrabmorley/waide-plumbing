@@ -5,6 +5,7 @@ module.exports = {
     extend: {
       backgroundImage: (theme) => ({
         "custom-image": "url('/img/bg-grain.jpg')",
+        "custom-image-mobile": "url('/img/bg-grain-mobile.jpg')",
       }),
 
       colors: {
