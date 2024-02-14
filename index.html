@@ -7,11 +7,7 @@
     <link rel="stylesheet" href="css/style.css" />
     <link rel="canonical" href="https://waideplumbing.com.au/">
 
-    <!-- jQuery -->
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-
-    <!-- FANCYBOX -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" />
+    <script src="main.js"></script>
 
     <!-- SEARCH CONSOLE -->
     <meta name="google-site-verification" content="drLzaWUgKllS3i5NJpNV1NfaESNcsFxzLTYDQBZ-xrA" />
@@ -64,26 +60,7 @@
 <body class="bg-gradient-to-tr from-neutral-100 via-transparent to-waide-cream">
 
 
-    <!-- HEADER -->
-    <header
-        class="bg-gradient-to-l from-stone-900 to-stone-700 flex justify-between items-center fixed w-full shadow-xl z-50">
-        <a href="index.html">
-            <img class="w-24 p-2 ml-1" src="./img/logo-trans.webp" alt="Waide Plumbing logo">
-        </a>
-        <a href="tel:0404032715">
-            <div class="p-1 border-2 border-waide-cream rounded-md mr-4 flex items-center hover:opacity-70">
-                <p class="mx-2 text-waide-cream font-semibold">0404 032 715</p>
-                <xml version="1.0" encoding="UTF-8" ?><svg width="20px" height="20px" stroke-width="2"
-                        viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" color="#FFFEEC">
-                        <path d="M16 5H22M22 5L19 2M22 5L19 8" stroke="#FFFEEC" stroke-width="2" stroke-linecap="round"
-                            stroke-linejoin="round"></path>
-                        <path
-                            d="M18.1182 14.702L14 15.5C11.2183 14.1038 9.5 12.5 8.5 10L9.26995 5.8699L7.81452 2L4.0636 2C2.93605 2 2.04814 2.93178 2.21654 4.04668C2.63695 6.83 3.87653 11.8765 7.5 15.5C11.3052 19.3052 16.7857 20.9564 19.802 21.6127C20.9668 21.8662 22 20.9575 22 19.7655L22 16.1812L18.1182 14.702Z"
-                            stroke="#FFFEEC" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                    </svg>
-            </div>
-        </a>
-    </header>
+    <div id="header"></div>
 
 
     <!-- HERO -->
@@ -241,8 +218,7 @@
 
             <!-- ITEM 1 -->
             <div class="services-item-container">
-                <a href="javascript:;" data-fancybox data-src="#hidden-content"
-                    data-options='{"maxWidth" : 600, "animationEffect": "tube"}'>
+                <a href="./24-7-emergency.html">
                     <img class="rounded-t-xl w-24 mx-auto" src="./img/plumbing-icons/emergency.png"
                         alt="plumber emergency service truck with spanner displayed on the side drawing"
                         data-aos="zoom-out" data-aos-duration="2000">
@@ -252,8 +228,7 @@
 
             <!-- ITEM 2 -->
             <div class="services-item-container">
-                <a href="javascript:;" data-fancybox data-src="#hidden-content2"
-                    data-options='{"maxWidth" : 600, "animationEffect": "tube"}'>
+                <a href="./burst-leak.html">
                     <img class="rounded-t-xl w-24 mx-auto" src="./img/plumbing-icons/bursts-leaks.png"
                         alt="burst pipe with leaking water drops drawing" data-aos="zoom-out" data-aos-duration="2000">
                     <h3 class="font-semibold text-center">Burst & Leaking Pipes</h3>
@@ -262,8 +237,7 @@
 
             <!-- ITEM 3 -->
             <div class="services-item-container">
-                <a href="javascript:;" data-fancybox data-src="#hidden-content3"
-                    data-options='{"maxWidth" : 600, "animationEffect": "tube"}'>
+                <a href="./hot-water.html">
                     <img class="rounded-t-xl w-24 mx-auto" src="./img/plumbing-icons/hot-water.png"
                         alt="hot water system drawing" data-aos="zoom-out" data-aos-duration="2000">
                     <h3 class="font-semibold text-center">Hot Water System Installs</h3>
@@ -272,8 +246,7 @@
 
             <!-- ITEM 4 -->
             <div class="services-item-container">
-                <a href="javascript:;" data-fancybox data-src="#hidden-content4"
-                    data-options='{"maxWidth" : 600, "animationEffect": "tube"}'>
+                <a href="taps-toilets.html">
                     <img class="rounded-t-xl w-24 mx-auto" src="./img/plumbing-icons/leaking-taps.png"
                         alt="tap with a crack leaking drops of water drawing" data-aos="zoom-out"
                         data-aos-duration="2000">
@@ -283,8 +256,7 @@
 
             <!-- ITEM 5 -->
             <div class="services-item-container">
-                <a href="javascript:;" data-fancybox data-src="#hidden-content5"
-                    data-options='{"maxWidth" : 600, "animationEffect": "tube"}'>
+                <a href="./blocked-toilets-drains.html">
                     <img class="rounded-t-xl w-24 mx-auto" src="./img/plumbing-icons/blocked-toilets.png"
                         alt="plunger drawing" data-aos="zoom-out" data-aos-duration="2000">
                     <h3 class="font-semibold text-center">Blocked Toilets & Drains</h3>
@@ -293,8 +265,7 @@
 
             <!-- ITEM 6 -->
             <div class="services-item-container">
-                <a href="javascript:;" data-fancybox data-src="#hidden-content6"
-                    data-options='{"maxWidth" : 600, "animationEffect": "tube"}'>
+                <a href="upgrades.html">
                     <img class="rounded-t-xl w-24 mx-auto" src="./img/plumbing-icons/renovations.png"
                         alt="shower with running water drawing" data-aos="zoom-out" data-aos-duration="2000">
                     <h3 class=" font-semibold text-center">Renovations & Upgrades</h3>
@@ -303,8 +274,7 @@
 
             <!-- ITEM 7 -->
             <div class="services-item-container">
-                <a href="javascript:;" data-fancybox data-src="#hidden-content7"
-                    data-options='{"maxWidth" : 600, "animationEffect": "tube"}'>
+                <a href="./maintenance.html">
                     <img class="rounded-t-xl w-24 mx-auto" src="./img/plumbing-icons/general.png" alt="spanner drawing"
                         data-aos="zoom-out" data-aos-duration="2000">
                     <h3 class="font-semibold text-center">General Maintenance</h3>
@@ -313,224 +283,14 @@
 
             <!-- ITEM 8 -->
             <div class="services-item-container">
-                <a href="javascript:;" data-fancybox data-src="#hidden-content8"
-                    data-options='{"maxWidth" : 600, "animationEffect": "tube"}'>
+                <a href="residential-commercial.html">
                     <img class="rounded-t-xl w-24 mx-auto" src="./img/plumbing-icons/residential-commercial.png"
                         alt="house with pipe showing underneath the ground drawing" data-aos="zoom-out"
                         data-aos-duration="2000">
                     <h3 class="font-semibold text-center">Residential & Commercial</h3>
                 </a>
             </div>
-
-            <!-- Lightbox Content -->
-            <!-- ITEM 1 CONTENT (EMERGENCY) -->
-            <div style="display: none;" id="hidden-content" class="services-lightbox">
-                <img class="rounded-full w-24 mx-auto" src="./img/plumbing-icons/emergency.png"
-                    alt="plumber emergency service truck with spanner displayed on the side drawing">
-                <h3 class="font-semibold text-center text-lg my-2">24/7 Emergency Service</h3>
-                <img class="w-36 float-left mr-4 my-1 rounded-lg
-" src="./img/services/24-7.webp" alt="24 hour 7 days a week sign">
-                <p class="text-justify">Waide Plumbing is dedicated to being your trusted partner for urgent plumbing
-                    repairs on the Gold
-                    Coast, available 24/7. We recognise the unpredictability of plumbing emergencies and are devoted to
-                    delivering prompt and dependable solutions at any hour. Whether it involves a burst pipe, sudden
-                    leaks, or other pressing plumbing issues, our proficient team is prepared to react swiftly.
-                    Postponing emergency repairs can lead to substantial property damage and potentially jeopardise
-                    safety.
-                    By choosing Waide Plumbing, you can rest assured that our experienced team is always on
-                    standby, prepared to address any plumbing emergency.
-                    <img class="w-36 float-right ml-4 rounded-lg my-1
-                    " src="./img/services/24-7-2.webp" alt="emergency leak">
-                    Rely on us for immediate and effective
-                    repairs,
-                    safeguarding the soundness of your plumbing system and the security of your residence or
-                    establishment. Trust Waide Plumbing for round-the-clock emergency assistance, as we prioritise your
-                    peace of mind.
-
-                </p>
-            </div>
-
-            <!-- ITEM 2 CONTENT (BURST LEAKS)-->
-            <div style="display: none;" id="hidden-content2" class="services-lightbox">
-                <img class="rounded-full w-24 mx-auto" src="./img/plumbing-icons/bursts-leaks.png"
-                    alt="burst pipe with leaking water drops drawing">
-                <h3 class="font-semibold text-center text-lg my-2">Burst & Leaking Pipes</h3>
-                <img class="w-36 float-left mr-4 my-1 rounded-lg
-                " src="./img/services/leak-2.webp" alt="emergency leak">
-                <p class="text-justify">Waide Plumbing is your reliable partner on the Gold Coast for 24/7 emergency
-                    repairs, specialising in
-                    swift solutions for bursts and leaking pipes. Plumbing emergencies, such as these, demand immediate
-                    attention to prevent extensive damage to your property.
-                    Burst or leaking pipes can lead to water wastage, structural damage, and potential health hazards.
-                    Our expert team is equipped to respond promptly to these emergencies, offering efficient repairs to
-                    minimise the impact on your home or business.
-                    Delaying the resolution of burst or leaking pipes can exacerbate the situation, resulting in
-                    increased repair costs and potential disruptions to your daily life.
-                    <img class="w-36 float-right ml-4 rounded-lg my-1
-                    " src="./img/services/leak-1.webp" alt="emergency leak">
-                    With Waide Plumbing, you can
-                    rest assured that our skilled professionals are available around the clock to address these critical
-                    issues, providing reliable and timely solutions to safeguard your property.
-                    Trust Waide Plumbing for
-                    24/7 emergency services, ensuring your peace of mind in times of plumbing crisis.
-                </p>
-            </div>
-
-            <!-- ITEM 3 CONTENT (HOT WATER) -->
-            <div style="display: none;" id="hidden-content3" class="services-lightbox">
-                <img class="rounded-full w-24 mx-auto" src="./img/plumbing-icons/hot-water.png"
-                    alt="hot water system drawing">
-                <h3 class="font-semibold text-center text-lg my-2">Hot Water System Installs</h3>
-                <img class="w-36 float-left mr-4 rounded-lg my-1" src="./img/services/hot-1.webp"
-                    alt="hot water install">
-                <p class="text-justify">Elevate your home's comfort and efficiency by entrusting Waide Plumbing on the
-                    Gold Coast
-                    with our
-                    top-tier hot water system replacement services. Over time, hot water systems may experience wear and
-                    tear, diminishing their efficiency and reliability. Our seasoned professionals are dedicated to
-                    delivering seamless replacements, tailored to your specific needs.
-                    Delaying maintenance or neglecting the need for a replacement can expose you to a range of risks.
-                    Reduced efficiency becomes a prevalent issue, translating into higher energy bills and prolonged
-                    wait times for hot water. Ageing systems are also more prone to leaks and other malfunctions, which
-                    can lead to water damage and potentially costly repairs.
-                    <img class="w-36 float-right ml-4 rounded-lg my-1" src="./img/services/hot-2.webp"
-                        alt="hot water install">
-                    At Waide Plumbing, we understand the importance of a reliable hot water system in your daily life.
-                    Our skilled team not only ensures a smooth replacement process but also provides valuable insights
-                    into selecting energy-efficient options that align with your preferences and budget. Upgrade your
-                    home today to enjoy consistent hot water and peace of mind. Trust Waide Plumbing for excellence in
-                    hot water system services on the Gold Coast.
-                </p>
-            </div>
-
-            <!-- ITEM 4 CONTENT (TAPS & TOILETS) -->
-            <div style="display: none;" id="hidden-content4" class="services-lightbox">
-                <img class="rounded-full w-24 mx-auto" src="./img/plumbing-icons/leaking-taps.png"
-                    alt="tap with a crack leaking drops of water drawing">
-                <h3 class="font-semibold text-center text-lg my-2">Leaking Taps & Toilets</h3>
-                <img class="w-36 float-left mr-4 my-1 rounded-lg
-" src="./img/services/tandt-1.webp" alt="toilet">
-                <p class="text-justify">Transform your home with Waide Plumbing's expert services on the Gold Coast,
-                    specialising in the
-                    repair and replacement of leaking taps and toilets. Our dedicated team is committed to resolving
-                    these issues promptly, ensuring your home remains efficient and leak-free.
-                    Leaking taps and toilets may seem like minor inconveniences, but the risks associated with
-                    neglecting these problems are substantial. Water wastage is a significant concern, impacting both
-                    the environment and your utility bills. Additionally, persistent leaks can lead to water damage,
-                    fostering the growth of mould and causing structural issues.
-                    By choosing Waide Plumbing, you're opting for swift and effective solutions.
-                    <img class="w-36 float-right ml-4 my-1 rounded-lg
-                    " src="./img/services/tant-2.webp" alt="leaking tap">
-                    Our experienced
-                    professionals diagnose and address leaks with precision, preventing further damage and saving you
-                    money in the long run. Don't let a dripping tap or a faulty toilet disrupt your peace – reach out to
-                    Waide Plumbing for reliable, high-quality repairs and replacements tailored to your needs.
-                </p>
-            </div>
-
-            <!-- ITEM 5 CONTENT (BLOCKED TOILETS) -->
-            <div style="display: none;" id="hidden-content5" class="services-lightbox">
-                <img class="rounded-full w-24 mx-auto" src="./img/plumbing-icons/blocked-toilets.png"
-                    alt="plunger drawing">
-                <h3 class="font-semibold text-center text-lg my-2">Blocked Toilets & Drains</h3>
-                <img class="w-36 float-left mr-4 my-1 rounded-lg
-                " src="./img/services/blocked-1.webp" alt="working clean toilet">
-
-                <p class="text-justify">Choose Waide Plumbing on the Gold Coast for unparalleled expertise in tackling
-                    blocked drains and
-                    toilets. Our seasoned professionals understand the urgency and inconvenience these issues bring,
-                    making us your reliable partner for swift and effective solutions.
-                    Blocked drains and toilets can disrupt your daily life, leading to potential health hazards and
-                    property damage. At Waide Plumbing, we prioritise your comfort and safety by offering 24/7 emergency
-                    services. Our skilled team employs cutting-edge technology to diagnose and clear blockages promptly,
-                    ensuring the seamless flow of water in your plumbing system.
-                    <img class="w-36 float-right ml-4 my-1 rounded-lg
-                    " src="./img/services/blocked-2.webp" alt="working clean toilet">
-                    What sets Waide Plumbing apart is our commitment to customer satisfaction. We go beyond quick fixes,
-                    providing thorough inspections and tailored solutions to prevent future blockages. With a focus on
-                    efficiency and reliability, Waide Plumbing is your go-to choice for resolving blocked drains and
-                    toilets on the Gold Coast. Trust us to deliver exceptional service, ensuring the optimal performance
-                    of your plumbing system.
-                </p>
-            </div>
-
-            <!-- ITEM 6 CONTENT (UPGRADES) -->
-            <div style="display: none;" id="hidden-content6" class="services-lightbox">
-                <img class="rounded-full w-24 mx-auto" src="./img/plumbing-icons/renovations.png"
-                    alt="shower with running water drawing">
-                <h3 class="font-semibold text-center text-lg my-2">Renovations & Upgrades</h3>
-                <img class="w-36 float-left mr-4 rounded-lg my-1" src="./img/services/upgrade-2.webp"
-                    alt="bathroom upgrade">
-                <p class="text-justify">Transform your space with Waide Plumbing on the Gold Coast, the leading choice
-                    for plumbing
-                    renovations and enhancements. Our skilled team is committed to improving your property's
-                    functionality and aesthetics, providing customised, top-quality services. When it comes to
-                    renovations and upgrades, Waide Plumbing excels in delivering excellence. Whether it's a kitchen,
-                    bathroom, or full property remodel, our experienced professionals bring years of expertise and
-                    attention to detail to every project. We seamlessly integrate modern plumbing solutions to enhance
-                    the overall appeal and efficiency of your space.
-                    <img class="w-36 float-right ml-4 rounded-lg my-1" src="./img/services/upgrade-1.webp"
-                        alt="sink upgrade">
-                    Choosing Waide Plumbing means choosing a partner
-                    dedicated to quality craftsmanship and customer satisfaction. We collaborate closely with you to
-                    grasp your vision and execute renovations and upgrades that surpass your expectations. Trust us to
-                    bring innovation, reliability, and a touch of luxury to your plumbing projects on the Gold Coast.
-                    Elevate your space with Waide Plumbing, where expertise meets excellence.
-                </p>
-            </div>
-
-            <!-- ITEM 7 CONTENT (MAINTENANCE)-->
-            <div style="display: none;" id="hidden-content7" class="services-lightbox">
-                <img class="rounded-full w-24 mx-auto" src="./img/plumbing-icons/general.png" alt="spanner drawing">
-                <h3 class="font-semibold text-center text-lg my-2">General Maintenance</h3>
-                <img class="w-36 float-left mr-4 my-1 rounded-lg
-" src="./img/services/maint-1.webp" alt="pipe maintenance job">
-                <p class="text-justify">Waide Plumbing is committed to providing all-inclusive general plumbing
-                    maintenance services in the
-                    Gold Coast. Our team is devoted to guaranteeing the enduring performance of your plumbing system
-                    through meticulous and anticipatory maintenance. We comprehend the significance of consistent
-                    plumbing maintenance in preventing possible interruptions to your everyday activities. By choosing
-                    Waide Plumbing, you benefit from our expertise in identifying and addressing issues before they
-                    escalate.
-                    <img class="w-36 float-right ml-4 my-1 rounded-lg
-                    " src="./img/services/maint-2.webp" alt="water maintenance job clean water">
-                    From inspecting pipes to checking fixtures, our skilled professionals cover all aspects of
-                    general plumbing maintenance to keep your system running smoothly.
-                    Trust Waide Plumbing for
-                    tailored, cost-effective solutions that prioritise efficiency and sustainability, upholding the
-                    integrity of your plumbing system and ensuring a trouble-free experience in your home or business on
-                    the Gold Coast. With Waide Plumbing, your plumbing is in good hands.
-                </p>
-            </div>
-
-            <!-- ITEM 8 CONTENT (DOMESTIC & COMMERCIAL) -->
-            <div style="display: none;" id="hidden-content8" class="services-lightbox">
-                <img class="rounded-full w-24 mx-auto" src="./img/plumbing-icons/residential-commercial.png"
-                    alt="house with pipe showing underneath the ground drawing">
-                <h3 class="font-semibold text-center text-lg my-2">Residential & Commercial</h3>
-                <img class="w-36 float-left mr-4 my-1 rounded-lg
-                " src="./img/services/dom-2.webp" alt="domestic house">
-                <p class="text-justify">Waide Plumbing is your trusted associate for all residential and commercial
-                    plumbing tasks throughout
-                    the Gold Coast. Our adaptable and seasoned team is prepared to manage a broad spectrum of projects,
-                    guaranteeing first-rate services customised to the distinct demands of each environment. For
-                    residential endeavours, we comprehend the significance of an operational and efficient plumbing
-                    system in establishing a cosy home setting. Be it regular upkeep, enhancements, or urgent repairs,
-                    Waide Plumbing is devoted to providing swift and dependable services that put your home’s welfare
-                    first. In the realm of commercial plumbing, we leverage our extensive knowledge to tackle the
-                    intricate plumbing needs of businesses on the Gold Coast. From refurbishments to new setups and
-                    emergency assistance, our team is committed to reducing interruptions to your business activities
-                    while ensuring adherence to industry norms.
-                    <img class="w-36 float-right ml-4 my-1 rounded-lg
-                    " src="./img/services/dom-1.webp" alt="commercial building">
-                    Opting for Waide Plumbing equates to selecting a partner
-                    with a demonstrated history of excellence in both residential and commercial plumbing. Count on us
-                    to offer inventive solutions, unparalleled dependability, and a dedication to customer gratification
-                    across the varied plumbing requirements of the Gold Coast.
-                </p>
-
-
-            </div>
+        </div>
         </div>
         <div class="spacer"></div>
         <div class="spacer"></div>
@@ -627,8 +387,6 @@
         </div>
         <div class="spacer"></div>
         <div class="spacer"></div>
-        <div class="spacer"></div>
-        <div class="spacer"></div>
     </section>
 
 
@@ -658,70 +416,7 @@
     </section> -->
 
 
-    <!-- FOOTER -->
-    <footer class="bg-stone-900 flex text-waide-cream p-8 flex-col text-center">
-
-        <!-- LOGO -->
-        <img class="w-36 mx-auto" src="./img/logo-trans.webp" alt="waide plumbing logo">
-        <div class="spacer"></div>
-
-        <div class="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-4 max-w-3xl mx-auto"">
-
-            <!-- DETAILS -->
-            <div class=" space-y-2 text-xs">
-            <div class="flex items-center">
-                <i class="fas fa-envelope text-waide-cream mr-2"></i>
-                <span>admin@waideplumbing.com.au</span>
-            </div>
-            <div class="flex items-center">
-                <i class="fas fa-phone-alt text-waide-cream mr-2"></i>
-                <span>0404 032 715</span>
-            </div>
-            <div class="flex items-center">
-                <i class="fas fa-id-card text-waide-cream mr-2"></i>
-                <span>ABN: 98 143 763 644</span>
-            </div>
-            <div class="flex items-center">
-                <i class="fas fa-tools text-waide-cream mr-2"></i>
-                <span>Plumbing License Number: 15029363</span>
-            </div>
-            <div class="flex items-center">
-                <i class="fas fa-clock text-waide-cream mr-2"></i>
-                <span>Operating Hours: 24 hours Monday - Friday</span>
-            </div>
-            <div class="flex items-center">
-                <i class="fas fa-map-marker-alt text-waide-cream mr-2"></i>
-                <span>Location: Gold Coast, Logan City, Brisbane</span>
-            </div>
-        </div>
-        <div class="h-8"></div>
-
-        <!-- SOCIAL LINKS -->
-        <div class=" bg-white/20 h-fit p-4 rounded-xl font-bold">
-            <p class="text-xs mb-4">FOLLOW US</p>
-            <div class="flex justify-center space-x-6 items-center">
-                <a href="https://www.facebook.com/WaidePlumb" aria-label="Waide Plumbing Facebook link">
-                    <i class="fab fa-facebook-f text-2xl hover:opacity-70 hover:scale-90 duration-200"></i>
-                </a>
-                <a href="https://www.instagram.com/waideplumbing" aria-label="Waide Plumbing Instagram link">
-                    <i class="fab fa-instagram text-3xl hover:opacity-70 hover:scale-90 duration-200"></i>
-                </a>
-            </div>
-        </div>
-
-        </div>
-
-        <div class="spacer"></div>
-
-
-        <div class="text-xs">
-            &copy;
-            <script>document.write(new Date().getFullYear())</script> WAIDE PLUMBING. ALL RIGHTS RESERVED.
-            <p class="mt-4">
-                SITE BY <a href="https://morleywebdev.com/" class="text-blue-400">MORLEY DEV</a>
-            </p>
-        </div>
-    </footer>
+    <div id="footer"></div>
 
 
 

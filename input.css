@@ -88,3 +88,7 @@ li {
   @apply text-waide-cream;
   background-color: #414142 !important;
 }
+
+.flex-2 {
+  flex: 2;
+}
