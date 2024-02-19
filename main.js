@@ -8,3 +8,9 @@ window.onload = function () {
     .then((response) => response.text())
     .then((data) => (document.querySelector(`#footer`).innerHTML = data));
 };
+
+// LOAD SCREEN
+window.addEventListener("load", function () {
+  var load_screen = document.getElementById("loading-screen");
+  document.body.removeChild(load_screen);
+});
