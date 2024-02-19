@@ -40,6 +40,10 @@ li {
   @apply w-full p-4 border-4 border-waide-gray font-bold rounded-lg shadow-xl hover:opacity-90 hover:scale-95 transition duration-200;
 }
 
+.button-3 {
+  @apply w-full p-4 font-bold underline underline-offset-4 hover:opacity-90 hover:scale-95 transition duration-200;
+}
+
 .heading {
   @apply text-4xl md:text-5xl font-bold text-center;
 }
@@ -70,23 +74,6 @@ li {
 
 .services-item-container {
   @apply p-4 flex flex-col flex-1 rounded-xl shadow-md bg-white border-black/10 border mx-auto text-center w-44 h-44;
-}
-
-.services-lightbox {
-  @apply flex flex-col flex-1 rounded-xl shadow-md bg-waide-gray border-white/10 border mx-auto text-center filter opacity-90;
-}
-
-.fancybox-slide--iframe .fancybox-content,
-.fancybox-slide--html .fancybox-content,
-.fancybox-slide--inline .fancybox-content,
-.fancybox-slide--ajax .fancybox-content {
-  max-width: 600px !important;
-  padding: 24px !important;
-}
-
-.fancybox-content {
-  @apply text-waide-cream;
-  background-color: #414142 !important;
 }
 
 .flex-2 {
