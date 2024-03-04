@@ -550,6 +550,10 @@ video {
   z-index: 50;
 }
 
+.-m-8 {
+  margin: -2rem;
+}
+
 .mx-2 {
   margin-left: 0.5rem;
   margin-right: 0.5rem;
@@ -604,6 +608,18 @@ video {
 
 .mt-8 {
   margin-top: 2rem;
+}
+
+.-mb-24 {
+  margin-bottom: -6rem;
+}
+
+.-mb-52 {
+  margin-bottom: -13rem;
+}
+
+.-mb-40 {
+  margin-bottom: -10rem;
 }
 
 .block {
@@ -664,6 +680,14 @@ video {
   width: 100%;
 }
 
+.w-5\/6 {
+  width: 83.333333%;
+}
+
+.w-11\/12 {
+  width: 91.666667%;
+}
+
 .max-w-3xl {
   max-width: 48rem;
 }
@@ -684,12 +708,24 @@ video {
   max-width: 1800px;
 }
 
+.max-w-\[800px\] {
+  max-width: 800px;
+}
+
 .max-w-md {
   max-width: 28rem;
 }
 
 .max-w-sm {
   max-width: 24rem;
+}
+
+.max-w-2xl {
+  max-width: 42rem;
+}
+
+.max-w-\[600px\] {
+  max-width: 600px;
 }
 
 .flex-1 {
@@ -772,6 +808,14 @@ video {
   border-radius: 0.75rem;
 }
 
+.rounded-2xl {
+  border-radius: 1rem;
+}
+
+.rounded-3xl {
+  border-radius: 1.5rem;
+}
+
 .rounded-t-xl {
   border-top-left-radius: 0.75rem;
   border-top-right-radius: 0.75rem;
@@ -781,6 +825,14 @@ video {
   border-width: 2px;
 }
 
+.border-8 {
+  border-width: 8px;
+}
+
+.border-t-2 {
+  border-top-width: 2px;
+}
+
 .border-waide-cream {
   --tw-border-opacity: 1;
   border-color: rgb(255 254 236 / var(--tw-border-opacity));
@@ -788,6 +840,23 @@ video {
 
 .border-waide-gray\/70 {
   border-color: rgb(65 65 66 / 0.7);
+}
+
+.border-waide-gray {
+  --tw-border-opacity: 1;
+  border-color: rgb(65 65 66 / var(--tw-border-opacity));
+}
+
+.border-waide-gray\/50 {
+  border-color: rgb(65 65 66 / 0.5);
+}
+
+.border-waide-gray\/10 {
+  border-color: rgb(65 65 66 / 0.1);
+}
+
+.border-b-waide-gray\/50 {
+  border-bottom-color: rgb(65 65 66 / 0.5);
 }
 
 .bg-stone-900 {
@@ -869,6 +938,10 @@ video {
   padding: 2rem;
 }
 
+.p-6 {
+  padding: 1.5rem;
+}
+
 .px-2 {
   padding-left: 0.5rem;
   padding-right: 0.5rem;
@@ -902,12 +975,33 @@ video {
   line-height: 1rem;
 }
 
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
 .font-bold {
   font-weight: 700;
 }
 
 .font-semibold {
   font-weight: 600;
+}
+
+.leading-6 {
+  line-height: 1.5rem;
+}
+
+.leading-normal {
+  line-height: 1.5;
+}
+
+.leading-loose {
+  line-height: 2;
+}
+
+.leading-relaxed {
+  line-height: 1.625;
 }
 
 .text-blue-400 {
@@ -1227,6 +1321,18 @@ li {
   .md\:mx-auto {
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .md\:-mb-40 {
+    margin-bottom: -10rem;
+  }
+
+  .md\:hidden {
+    display: none;
+  }
+
+  .md\:w-5\/6 {
+    width: 83.333333%;
   }
 
   .md\:max-w-3xl {
