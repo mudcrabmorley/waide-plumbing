@@ -6,6 +6,7 @@ module.exports = {
       backgroundImage: (theme) => ({
         "custom-image": "url('/img/bg-grain.jpg')",
         "custom-image-mobile": "url('/img/bg-grain-mobile.jpg')",
+        "hero-pattern": "url(./img/hero.webp)",
       }),
 
       colors: {
