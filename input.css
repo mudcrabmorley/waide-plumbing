@@ -29,7 +29,7 @@ li {
 }
 
 .spacer {
-  @apply h-5 md:h-10;
+  @apply h-12;
 }
 
 .button {
@@ -37,11 +37,15 @@ li {
 }
 
 .button-2 {
-  @apply w-full p-4 border-4 border-waide-cream font-bold rounded-lg shadow-xl hover:opacity-90 hover:scale-95 transition duration-200;
+  @apply w-full p-4 border-4 border-waide-gray font-bold rounded-lg shadow-xl hover:opacity-90 hover:scale-95 transition duration-200;
 }
 
 .button-3 {
   @apply mx-auto text-center font-bold hover:opacity-90 hover:scale-95 transition duration-200;
+}
+
+.button-4 {
+  @apply w-full p-4 border-4 border-waide-cream font-bold rounded-lg shadow-xl hover:opacity-90 hover:scale-95 transition duration-200;
 }
 
 .heading {
