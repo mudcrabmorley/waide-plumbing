@@ -1013,7 +1013,13 @@ li {
 }
 
 .spacer {
-  height: 3rem;
+  height: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .spacer {
+    height: 2.5rem;
+  }
 }
 
 .button {
