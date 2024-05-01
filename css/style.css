@@ -582,6 +582,10 @@ video {
   margin-bottom: 1rem;
 }
 
+.mb-8 {
+  margin-bottom: 2rem;
+}
+
 .ml-1 {
   margin-left: 0.25rem;
 }
@@ -608,6 +612,10 @@ video {
 
 .mt-5 {
   margin-top: 1.25rem;
+}
+
+.mt-6 {
+  margin-top: 1.5rem;
 }
 
 .mt-8 {
@@ -663,6 +671,10 @@ video {
   width: 9rem;
 }
 
+.w-5\/6 {
+  width: 83.333333%;
+}
+
 .w-60 {
   width: 15rem;
 }
@@ -678,10 +690,6 @@ video {
 
 .w-full {
   width: 100%;
-}
-
-.max-w-2xl {
-  max-width: 42rem;
 }
 
 .max-w-3xl {
@@ -702,6 +710,10 @@ video {
 
 .max-w-\[500px\] {
   max-width: 500px;
+}
+
+.max-w-\[600px\] {
+  max-width: 600px;
 }
 
 .max-w-\[800px\] {
@@ -928,6 +940,11 @@ video {
   line-height: 2.25rem;
 }
 
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
+}
+
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
@@ -947,8 +964,20 @@ video {
   font-weight: 700;
 }
 
+.font-extrabold {
+  font-weight: 800;
+}
+
+.font-medium {
+  font-weight: 500;
+}
+
 .font-semibold {
   font-weight: 600;
+}
+
+.uppercase {
+  text-transform: uppercase;
 }
 
 .leading-relaxed {
@@ -963,6 +992,18 @@ video {
 .text-waide-cream {
   --tw-text-opacity: 1;
   color: rgb(255 254 236 / var(--tw-text-opacity));
+}
+
+.shadow-2xl {
+  --tw-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+  --tw-shadow-colored: 0 25px 50px -12px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.shadow-md {
+  --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
 .shadow-sm {
@@ -1026,8 +1067,7 @@ li {
   width: 100%;
   border-radius: 0.5rem;
   border-width: 4px;
-  --tw-border-opacity: 1;
-  border-color: rgb(65 65 66 / var(--tw-border-opacity));
+  border-color: rgb(68 64 60 / 0.1);
   --tw-bg-opacity: 1;
   background-color: rgb(65 65 66 / var(--tw-bg-opacity));
   padding: 1rem;
@@ -1308,10 +1348,6 @@ li {
 @media (min-width: 640px) {
   .sm\:inline {
     display: inline;
-  }
-
-  .sm\:max-w-sm {
-    max-width: 24rem;
   }
 }
 

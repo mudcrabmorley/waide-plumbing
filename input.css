@@ -33,7 +33,7 @@ li {
 }
 
 .button {
-  @apply w-full p-4 border-4 border-waide-gray font-bold text-waide-cream bg-waide-gray rounded-lg shadow-xl hover:opacity-90 hover:scale-95 transition duration-200;
+  @apply w-full p-4 border-4 border-stone-700/10 font-bold text-waide-cream bg-waide-gray rounded-lg shadow-xl hover:opacity-90 hover:scale-95 transition duration-200;
 }
 
 .button-2 {
