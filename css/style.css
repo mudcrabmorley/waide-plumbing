@@ -856,6 +856,11 @@ video {
   background-color: rgb(255 255 255 / 0.2);
 }
 
+.bg-stone-800 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(41 37 36 / var(--tw-bg-opacity));
+}
+
 .bg-custom-image-mobile {
   background-image: url('/img/bg-grain-mobile.jpg');
 }
@@ -1054,13 +1059,7 @@ li {
 }
 
 .spacer {
-  height: 1.5rem;
-}
-
-@media (min-width: 768px) {
-  .spacer {
-    height: 2.5rem;
-  }
+  height: 2.5rem;
 }
 
 .button {

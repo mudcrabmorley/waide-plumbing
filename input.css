@@ -29,7 +29,7 @@ li {
 }
 
 .spacer {
-  @apply h-6 md:h-10;
+  @apply h-10;
 }
 
 .button {
