@@ -33,11 +33,11 @@ li {
 }
 
 .button {
-  @apply w-full p-4 border-4 border-stone-700/10 font-bold text-waide-cream bg-waide-gray rounded-lg shadow-xl hover:opacity-90 hover:scale-95 transition duration-200;
+  @apply w-full p-4 border-2 border-stone-700/10 font-bold text-waide-cream bg-waide-gray rounded-lg shadow-xl hover:opacity-90 hover:scale-95 transition duration-200;
 }
 
 .button-2 {
-  @apply w-full p-4 border-4 border-waide-gray font-bold rounded-lg shadow-xl hover:opacity-90 hover:scale-95 transition duration-200;
+  @apply w-full p-4 border-2 border-waide-gray font-bold rounded-lg shadow-xl hover:opacity-90 hover:scale-95 transition duration-200;
 }
 
 .button-3 {
@@ -45,7 +45,7 @@ li {
 }
 
 .button-4 {
-  @apply w-full p-4 border-4 border-waide-cream font-bold rounded-lg shadow-xl hover:opacity-90 hover:scale-95 transition duration-200;
+  @apply w-full p-4 border-2 border-waide-cream font-bold rounded-lg shadow-xl hover:opacity-90 hover:scale-95 transition duration-200;
 }
 
 .heading {
@@ -106,5 +106,13 @@ li {
 }
 
 .thick-underline {
-  box-shadow: inset 0 -3px 0 0 currentColor;
+  box-shadow: inset 0 -2px 0 0 currentColor;
+}
+
+.image-text {
+  background: url("/img/waide-texture.webp");
+  background-size: contain;
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  color: transparent;
 }

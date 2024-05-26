@@ -642,6 +642,10 @@ video {
   height: 4rem;
 }
 
+.h-2 {
+  height: 0.5rem;
+}
+
 .h-8 {
   height: 2rem;
 }
@@ -842,6 +846,11 @@ video {
   border-color: rgb(65 65 66 / 0.7);
 }
 
+.bg-stone-800 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(41 37 36 / var(--tw-bg-opacity));
+}
+
 .bg-stone-900 {
   --tw-bg-opacity: 1;
   background-color: rgb(28 25 23 / var(--tw-bg-opacity));
@@ -856,17 +865,8 @@ video {
   background-color: rgb(255 255 255 / 0.2);
 }
 
-.bg-stone-800 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(41 37 36 / var(--tw-bg-opacity));
-}
-
 .bg-custom-image-mobile {
   background-image: url('/img/bg-grain-mobile.jpg');
-}
-
-.bg-gradient-to-l {
-  background-image: linear-gradient(to left, var(--tw-gradient-stops));
 }
 
 .bg-gradient-to-tr {
@@ -879,19 +879,9 @@ video {
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 
-.from-stone-900 {
-  --tw-gradient-from: #1c1917 var(--tw-gradient-from-position);
-  --tw-gradient-to: rgb(28 25 23 / 0) var(--tw-gradient-to-position);
-  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
-}
-
 .via-transparent {
   --tw-gradient-to: rgb(0 0 0 / 0)  var(--tw-gradient-to-position);
   --tw-gradient-stops: var(--tw-gradient-from), transparent var(--tw-gradient-via-position), var(--tw-gradient-to);
-}
-
-.to-stone-700 {
-  --tw-gradient-to: #44403c var(--tw-gradient-to-position);
 }
 
 .to-waide-cream {
@@ -971,10 +961,6 @@ video {
 
 .font-extrabold {
   font-weight: 800;
-}
-
-.font-medium {
-  font-weight: 500;
 }
 
 .font-semibold {
@@ -1065,7 +1051,7 @@ li {
 .button {
   width: 100%;
   border-radius: 0.5rem;
-  border-width: 4px;
+  border-width: 2px;
   border-color: rgb(68 64 60 / 0.1);
   --tw-bg-opacity: 1;
   background-color: rgb(65 65 66 / var(--tw-bg-opacity));
@@ -1093,7 +1079,7 @@ li {
 .button-2 {
   width: 100%;
   border-radius: 0.5rem;
-  border-width: 4px;
+  border-width: 2px;
   --tw-border-opacity: 1;
   border-color: rgb(65 65 66 / var(--tw-border-opacity));
   padding: 1rem;
@@ -1137,7 +1123,7 @@ li {
 .button-4 {
   width: 100%;
   border-radius: 0.5rem;
-  border-width: 4px;
+  border-width: 2px;
   --tw-border-opacity: 1;
   border-color: rgb(255 254 236 / var(--tw-border-opacity));
   padding: 1rem;
@@ -1316,7 +1302,15 @@ li {
 }
 
 .thick-underline {
-  box-shadow: inset 0 -3px 0 0 currentColor;
+  box-shadow: inset 0 -2px 0 0 currentColor;
+}
+
+.image-text {
+  background: url("/img/waide-texture.webp");
+  background-size: contain;
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  color: transparent;
 }
 
 .hover\:scale-90:hover {
@@ -1358,6 +1352,10 @@ li {
 
   .md\:-mb-40 {
     margin-bottom: -10rem;
+  }
+
+  .md\:block {
+    display: block;
   }
 
   .md\:hidden {
