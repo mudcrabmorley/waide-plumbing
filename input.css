@@ -12,7 +12,7 @@ body {
 }
 
 section {
-  @apply p-2;
+  @apply p-4;
 }
 
 h1,
@@ -45,7 +45,7 @@ li {
 }
 
 .button-4 {
-  @apply w-full p-4 border-2 border-waide-cream font-bold rounded-lg shadow-xl hover:opacity-90 hover:scale-95 transition duration-200;
+  @apply w-full p-4 border-2 border-waide-cream font-bold text-waide-cream rounded-lg shadow-xl hover:opacity-90 hover:scale-95 transition duration-200;
 }
 
 .heading {
@@ -68,15 +68,8 @@ li {
   @apply bg-white rounded-xl shadow-md p-4 py-8 border border-waide-gray/20 my-28 mx-2;
 }
 
-/* .hero {
-  background-image: url(./img/hero.webp) !important;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-} */
-
 .commit-item-container {
-  @apply card text-center p-4 rounded-xl shadow-md flex flex-col pt-4 space-y-2 h-[240px] border border-gray-50/20 mx-auto;
+  @apply card text-center p-16 rounded-xl shadow-md flex flex-col pt-4 space-y-2 h-[240px] border border-gray-50/20 mx-auto;
 }
 
 .icon-heading-container {
@@ -115,4 +108,19 @@ li {
   background-repeat: repeat;
   -webkit-background-clip: text;
   color: transparent;
+}
+
+.dark-overlay {
+  position: relative;
+}
+
+.dark-overlay::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 10;
 }
